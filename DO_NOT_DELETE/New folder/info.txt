@@ -1,0 +1,19 @@
+Hi @Ooi, Alexz (GfK),
+
+Host name: external-transfer1-production.hyperlane.gfk.com
+User: gxl-admin
+Recipient: For now (me) @Farhan, Muhammad (GfK) & @Riberfelt, Lars (GfK), can we add more people to be alert along the way?
+
+Here are the folders, naming format, file size & timing but I put them into 1 so I did not mixed anything, this is an example if we deliver everything on time today.
+•	/gxl-intage/data/exports/addon/X-2 ~> jp_intage_addon20221106.csv.gz ~> 120-150 MB ~> should be available on 00:15 utc
+•	/gxl-intage/data/exports/addon/X-1 ~> jp_intage_addon20221107.csv.gz ~> 120-150 MB ~> should be available on 3:15 utc
+•	/gxl-intage/data/exports/nwm/X-2 ~> jp_intage_nwm20221106.csv.gz ~> 7-9.5 GB ~> should be available on 5:00 utc
+•	/gxl-intage/data/exports/nwm/X-1 ~> jp_intage_nwm20221107.csv.gz ~> 7-9.5 GB ~> should be available on 9:00 utc
+
+•	/gxl-intage/data/exports/ldm ~> install_status_2_2022-11-08.tsv ~> 40 MB ~> should be available on 5:30 utc
+•	/gxl-intage/data/exports/ldm ~> activity_history_daily_2_2022-11-08.tsv ~> 0 KB ~> should be available on 5:30 utc
+•	/gxl-intage/data/exports/ldm ~> waypoint_history_daily_2_2022-11-08.tsv ~> 2.5 KB ~> should be available on 6:30 utc
+•	/gxl-intage/data/exports/ldm ~> install_status_2022-11-09.tsv ~> 40 MB ~> should be available on 15:30 utc
+•	/gxl-intage/data/exports/ldm ~> activity_history_daily_2022-11-09.tsv ~> 0 KB ~> should be available on 15:30 utc
+•	/gxl-intage/data/exports/ldm ~> waypoint_history_daily_2022-11-09.tsv ~> 2.5 KB  ~> should be available on 17:00 utc
+Note: I have added 30min buffer from above availability timing.

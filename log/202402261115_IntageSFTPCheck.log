@@ -1,0 +1,26 @@
+2024-02-26 11:15:02,694 INFO Insert into tLog and retrieve logID
+2024-02-26 11:15:02,928 INFO Created logID: 6d8b20b0-7a11-4106-8083-c8d6ff70bdd0
+2024-02-26 11:15:02,928 INFO Intage SFTP Check Started.
+2024-02-26 11:15:07,570 INFO Connected (version 2.0, client OpenSSH_6.7p1)
+2024-02-26 11:15:08,882 INFO Authentication (publickey) successful!
+2024-02-26 11:15:08,882 INFO 
+Accessing Intage SFTP.
+2024-02-26 11:15:08,882 INFO Connected.
+2024-02-26 11:15:09,617 INFO [chan 0] Opened sftp connection (server version 3)
+2024-02-26 11:15:10,601 INFO [chan 0] sftp session closed.
+2024-02-26 11:15:10,601 INFO Intage SFTP check completed, no missing file and all files above minimum size, no email will be sent out.
+2024-02-26 11:15:10,617 INFO All files are ok: 
+2024-02-26 11:15:10,617 INFO {
+  "File1": {
+    "Name": "/gxl-intage/data/exports/addon/X-2/jp_intage_addon20240224.csv.gz",
+    "File size (byte)": 124604540,
+    "Expected minimum filesize (byte)": 120000000
+  },
+  "File2": {
+    "Name": "/gxl-intage/data/exports/addon/X-1/jp_intage_addon20240225.csv.gz",
+    "File size (byte)": 129303278,
+    "Expected minimum filesize (byte)": 120000000
+  }
+}
+2024-02-26 11:15:10,617 INFO Updating tLog logID: 6d8b20b0-7a11-4106-8083-c8d6ff70bdd0 with status: 1
+2024-02-26 11:15:10,757 INFO SGTAM log updated.

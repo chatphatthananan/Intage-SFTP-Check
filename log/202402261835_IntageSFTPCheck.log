@@ -1,0 +1,51 @@
+2024-02-26 18:35:02,572 INFO Insert into tLog and retrieve logID
+2024-02-26 18:35:02,790 INFO Created logID: e06380ab-5247-4a85-bc84-2f305ab4643a
+2024-02-26 18:35:02,790 INFO Intage SFTP Check Started.
+2024-02-26 18:35:07,463 INFO Connected (version 2.0, client OpenSSH_6.7p1)
+2024-02-26 18:35:08,791 INFO Authentication (publickey) successful!
+2024-02-26 18:35:08,791 INFO 
+Accessing Intage SFTP.
+2024-02-26 18:35:08,791 INFO Connected.
+2024-02-26 18:35:09,541 INFO [chan 0] Opened sftp connection (server version 3)
+2024-02-26 18:35:13,026 INFO [chan 0] sftp session closed.
+2024-02-26 18:35:13,026 INFO Intage SFTP check completed, no missing file and all files above minimum size, no email will be sent out.
+2024-02-26 18:35:13,026 INFO All files are ok: 
+2024-02-26 18:35:13,026 INFO {
+  "File1": {
+    "Name": "/gxl-intage/data/exports/addon/X-2/jp_intage_addon20240224.csv.gz",
+    "File size (byte)": 124604540,
+    "Expected minimum filesize (byte)": 120000000
+  },
+  "File2": {
+    "Name": "/gxl-intage/data/exports/addon/X-1/jp_intage_addon20240225.csv.gz",
+    "File size (byte)": 129303278,
+    "Expected minimum filesize (byte)": 120000000
+  },
+  "File3": {
+    "Name": "/gxl-intage/data/exports/nwm/X-2/jp_intage_nwm20240224.csv.gz",
+    "File size (byte)": 16674035440,
+    "Expected minimum filesize (byte)": 7000000000
+  },
+  "File4": {
+    "Name": "/gxl-intage/data/exports/ldm/install_status_2_2024-02-26.tsv",
+    "File size (byte)": 44364904,
+    "Expected minimum filesize (byte)": 40000000
+  },
+  "File5": {
+    "Name": "/gxl-intage/data/exports/ldm/activity_history_daily_2_2024-02-26.tsv",
+    "File size (byte)": 0,
+    "Expected minimum filesize (byte)": 0
+  },
+  "File6": {
+    "Name": "/gxl-intage/data/exports/ldm/waypoint_history_daily_2_2024-02-26.tsv",
+    "File size (byte)": 2283364,
+    "Expected minimum filesize (byte)": 1750000
+  },
+  "File7": {
+    "Name": "/gxl-intage/data/exports/nwm/X-1/jp_intage_nwm20240225.csv.gz",
+    "File size (byte)": 18019390462,
+    "Expected minimum filesize (byte)": 7000000000
+  }
+}
+2024-02-26 18:35:13,026 INFO Updating tLog logID: e06380ab-5247-4a85-bc84-2f305ab4643a with status: 1
+2024-02-26 18:35:13,151 INFO SGTAM log updated.

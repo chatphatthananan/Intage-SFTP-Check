@@ -1,0 +1,31 @@
+2024-02-26 02:35:02,929 INFO Insert into tLog and retrieve logID
+2024-02-26 02:35:03,304 INFO Created logID: 757f470a-f722-418d-8c4c-328e713befef
+2024-02-26 02:35:03,304 INFO Intage SFTP Check Started.
+2024-02-26 02:35:10,476 INFO Connected (version 2.0, client OpenSSH_6.7p1)
+2024-02-26 02:35:11,789 INFO Authentication (publickey) successful!
+2024-02-26 02:35:11,789 INFO 
+Accessing Intage SFTP.
+2024-02-26 02:35:11,789 INFO Connected.
+2024-02-26 02:35:12,539 INFO [chan 0] Opened sftp connection (server version 3)
+2024-02-26 02:35:14,024 INFO [chan 0] sftp session closed.
+2024-02-26 02:35:14,024 INFO Intage SFTP check completed, no missing file and all files above minimum size, no email will be sent out.
+2024-02-26 02:35:14,024 INFO All files are ok: 
+2024-02-26 02:35:14,024 INFO {
+  "File1": {
+    "Name": "/gxl-intage/data/exports/ldm/install_status_2024-02-26.tsv",
+    "File size (byte)": 44363310,
+    "Expected minimum filesize (byte)": 40000000
+  },
+  "File2": {
+    "Name": "/gxl-intage/data/exports/ldm/activity_history_daily_2024-02-26.tsv",
+    "File size (byte)": 0,
+    "Expected minimum filesize (byte)": 0
+  },
+  "File3": {
+    "Name": "/gxl-intage/data/exports/ldm/waypoint_history_daily_2024-02-26.tsv",
+    "File size (byte)": 2289206,
+    "Expected minimum filesize (byte)": 1750000
+  }
+}
+2024-02-26 02:35:14,024 INFO Updating tLog logID: 757f470a-f722-418d-8c4c-328e713befef with status: 1
+2024-02-26 02:35:14,867 INFO SGTAM log updated.
